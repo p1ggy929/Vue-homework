@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
   <div>
     <button @click="increment">
@@ -39,3 +40,18 @@ function greet(event) {
 
 const awesome = ref(true)
 </script>
+=======
+<script setup>
+// 第一步：引入组件
+import MyComponents from './components/MyComponents.vue';
+</script>
+
+<template>
+  <!--第二步: 显示组件-->
+  <MyComponents/>
+</template>
+
+<style scoped>
+
+</style>
+>>>>>>> a90c1cc982b9918260cdb2ad0c7242a8638b5fdb
